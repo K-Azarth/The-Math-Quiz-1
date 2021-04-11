@@ -1,0 +1,45 @@
+body {
+    background: chocolate;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35;
+    font-family: Georgia;
+}
+
+h2 {
+    font-size: 10;
+    font-family: fantasy;
+}
+
+.login_div1,
+.login_div2 {
+    background: blueviolet;
+    padding: 10px;
+    float: inherit;
+    border-radius: 20px;
+}
+
+#player1_name,
+#player2_name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#word {
+    width: 60%;
+}
+
+#word_display {
+    letter-spacing: 2px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #849112;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
